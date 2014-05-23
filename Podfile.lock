@@ -18,11 +18,19 @@ PODS:
   - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - FAAnaconda (0.0.1):
+    - AFNetworking (~> 2.2.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2.1)
+  - FAAnaconda (from `../FAAnaconda/`)
+
+EXTERNAL SOURCES:
+  FAAnaconda:
+    :path: ../FAAnaconda/
 
 SPEC CHECKSUMS:
   AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  FAAnaconda: 31c6950780a635005aa1e5de0f1a3aa0d7b98876
 
 COCOAPODS: 0.33.1

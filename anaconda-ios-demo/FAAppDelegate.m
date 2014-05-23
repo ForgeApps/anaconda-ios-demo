@@ -7,6 +7,7 @@
 //
 
 #import "FAAppDelegate.h"
+#import "FARootViewController.h"
 
 @implementation FAAppDelegate
 
@@ -14,6 +15,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    FARootViewController *rootViewController = [[FARootViewController alloc] initWithNibName:nil bundle:nil];
+    
+    self.window.rootViewController = rootViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
